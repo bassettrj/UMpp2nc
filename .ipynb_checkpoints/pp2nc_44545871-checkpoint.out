@@ -1,0 +1,15 @@
+0
+/work/scratch-nopw/bassett/u-cu045/umnsaa_mlppd000/umnsaa_mlppd000_20091201.nc
+Writing to NETCDF4
+Writing to NETCDF4
+  Writing <CF Field: SPECIFIC HUMIDITY AFTER TIMESTEP(time(8), atmosphere_hybrid_height_coordinate(30), latitude(1360), longitude(1360)) 1>:
+    Compression = ''
+    Writing <CF DomainAxis: size(8)> to netCDF dimension: time
+    Writing <CF DimensionCoordinate: time(8) days since 2009-1-1 gregorian>
+        to netCDF variable: time(time)
+Partition.close: original = None
+ config = {'readonly': True, 'axes': ['dim0'], 'flip': [], 'hardmask': True, 'auxiliary_mask': None, 'units': <Units: days since 2009-1-1 gregorian>, 'dtype': dtype('float64'), 'func': None, 'update': True, 'serial': True, 'unique_subarray': False, 'extra_memory': 72}
+  serial
+   readonly=True
+   subarray originally in memory
+    1.1.2.3 pass

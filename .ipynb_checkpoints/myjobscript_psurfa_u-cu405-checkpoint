@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --partition=high-mem
+#SBATCH --job-name=py2nc
+#SBATCH -o pp2nc_%j.out 
+#SBATCH -e pp2nc_%j.err 
+#SBATCH --time=4:00:00
+#SBATCH --mem=64000
+
+module add jaspy/3.10
+
+python pp2nc_psurfa_u-cu405.py
+
+
